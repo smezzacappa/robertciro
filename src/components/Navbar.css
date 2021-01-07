@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer > .brand >.social > a >svg{
+   margin: 0em .5em;
+   color: #3ce1dd;
+
+
+}
