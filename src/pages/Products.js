@@ -35,7 +35,7 @@ export default class Products extends Component{
     // }
     @media only screen and (max-width:600px) and (min-width: 300px){
       .App-header{
-        min-height: 40vh;
+        min-height: 50vh;
       }
     }
     `}
