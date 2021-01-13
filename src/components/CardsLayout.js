@@ -21,7 +21,8 @@ export default class CardsLayout extends Component {
     {/* <Button variant="primary">Go somewhere</Button> */}
   </Card.Body>
 </Card>
-<Card>
+
+<Card>   
   <Card.Img variant="top" src={ComingSoon} />
   <Card.Body>
     <Card.Title>Beard</Card.Title>
@@ -35,7 +36,7 @@ export default class CardsLayout extends Component {
 <style jsx>
     {`
     .layoutContainer{
-        width: 80%;
+        width: auto%;
         margin: auto;
     }
     .prodLayout{
@@ -55,19 +56,16 @@ export default class CardsLayout extends Component {
         font-size: 20px;
         font-family: 'Shadows Into Light', cursive;
     }
-    // @media only screen and (max-width: 575px){
-    //     //   .App-header{
-    //     //     min-height: 75vh;
-    //     //   }
-    // .prodLayout{
-    //     width: 60%;
-    // }
-    // .card-title{
-    //     font-size: 90%;
-    // }
-    // .card-text{
-    //     font-size: 80%;
-    // }
+    @media only screen and (max-width: 400px){
+       
+    
+    .card-title{
+        font-size: 90%;
+    }
+    .card-text{
+        font-size: 80%;
+    }
+}
     `}
 </style>
 </div>
