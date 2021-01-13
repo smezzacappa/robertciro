@@ -13,7 +13,7 @@ export default class Products extends Component{
     render(){
         return(
           <div>
-            <HighlightedProducts/>
+            {/* <HighlightedProducts/> */}
             <Container className="slider">
             <Slider/> 
             </Container>

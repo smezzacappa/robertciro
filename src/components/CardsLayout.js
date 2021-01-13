@@ -13,7 +13,7 @@ export default class CardsLayout extends Component {
             <Card>
   <Card.Img variant="top" src={Logo} />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>Hair</Card.Title>
     <Card.Text>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
@@ -21,15 +21,15 @@ export default class CardsLayout extends Component {
     <Button variant="primary">Go somewhere</Button>
   </Card.Body>
 </Card>
-<Card style={{ width: '18rem' }}>
+<Card>
   <Card.Img variant="top" src={Logo} />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>Beard</Card.Title>
     <Card.Text>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
+    <Button>Go somewhere</Button>
   </Card.Body>
 </Card>
 </Container>
@@ -43,8 +43,14 @@ export default class CardsLayout extends Component {
         width: 18rem;
         margin: 1rem;
     }
-    \.card-text{
+    .card-title{
+        font-family: 'Big Shoulders Stencil Text', cursive;
+        font-size: 1.5em;
+        font-weight: 900;
+    }
+    .card-text{
         font-size: 20px;
+        font-family: 'Shadows Into Light', cursive;
     }
     `}
 </style>
