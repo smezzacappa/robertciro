@@ -25,9 +25,9 @@ export default class About extends Component{
               background-color: black;
               margin: 1em 0px 1em 0px;
             }
-            @media only screen and (max-width: 460px) {
+            @media only screen and (max-width: 400px) {
               .card{
-                margin: 0px;
+                margin: 1em 0 1em 0;
               }
              }
             `}

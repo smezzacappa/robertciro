@@ -54,8 +54,8 @@ a{
   }
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 400px) {
   .App-header{
-    /* min-height: 80vh; */
+    min-height: 80vh;
   }
  }
