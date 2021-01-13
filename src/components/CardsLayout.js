@@ -15,10 +15,9 @@ export default class CardsLayout extends Component {
   <Card.Body>
     <Card.Title>Hair</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      Check Out Our Hair Products
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
+    {/* <Button variant="primary">Go somewhere</Button> */}
   </Card.Body>
 </Card>
 <Card>
@@ -26,10 +25,9 @@ export default class CardsLayout extends Component {
   <Card.Body>
     <Card.Title>Beard</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      Check Out Our Beard Products
     </Card.Text>
-    <Button>Go somewhere</Button>
+    {/* <Button>Go somewhere</Button> */}
   </Card.Body>
 </Card>
 </Container>
