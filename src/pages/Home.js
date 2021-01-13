@@ -23,6 +23,7 @@ export default class Home extends Component{
             .card{
               // margin: 30px;
               background-color: black;
+              margin: 1em 0px 1em 0px;
             }
             @media only screen and (max-width: 460px) {
               .card{

@@ -52,8 +52,8 @@ export default class Slider extends Component{
       align-items: center;
       // border: solid white 4px;
       box-shadow: 0px 0px 10px black;
-      width: 500px;
-      margin: 0px;
+      width: 80%;
+      margin: auto;
 
     }
     // .carousel-inner > .carousel-item{
@@ -83,11 +83,14 @@ export default class Slider extends Component{
       
     // }
 
-    // @media only screen and (max-width: 752px){
+    @media only screen and (max-width: 780px){
     //   .App-header{
     //     min-height: 71vh;
     //   }
+    // .slide{
+    // margin:auto;
     // }
+    }
     // @media only screen and (max-width: 713px){
     //   .App-header{
     //     min-height: 72vh;
@@ -98,76 +101,81 @@ export default class Slider extends Component{
     //     min-height: 73vh;
     //   }
     // }
-    // @media only screen and (max-width: 630px){
+    @media only screen and (max-width: 630px){
     //   .App-header{
     //     min-height: 74vh;
     //   }
-    // }
-    // @media only screen and (max-width: 590px){
+    margin:auto;
+    }
+    @media only screen and (max-width: 575px){
     //   .App-header{
     //     min-height: 75vh;
     //   }
+.slide{
+    width: 80%;
+    margin:auto;
+// }
       
     // }
-    @media only screen and (max-width: 550px){
-      .App-header{
-        min-height: 76vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .slide{
-        width: 80%;
-        margin:auto;
-      }
+    // @media only screen and (max-width: 550px){
+    //   .App-header{
+    //     min-height: 76vh;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //   }
+    //   .slide{
+    //     width: 80%;
+    //     margin:auto;
+    //   }
       // .carousel{
       //   width: 80%;
       //   display: flex;
       //   justify-content: center;
       //   align-items: center;
-      }
+    //   }
       // .slide{
       //   width: 80%;
       //   display: flex-box;
       //   align-items: center;
       //   justiy-content: center;
       // }
-    }
-    @media only screen and (max-width: 510px){
-      .App-header{
-        min-height: 77vh;
-      }
-    }
-    @media only screen and (max-width: 470px){
-      .App-header{
-        min-height: 78vh;
-      }
-    }
-    @media only screen and (max-width: 430px){
-      .App-header{
-        min-height: 79vh;
-      }
-    }
-    @media only screen and (max-width: 400px){
-      .App-header{
-        min-height: 80vh;
-      }
-    }
-    @media only screen and (max-width: 350px){
-      .App-header{
-        min-height: 8vh;
-      }
-    }
-    @media only screen and (max-width: 305px){
-      .App-header{
-        min-height: 82vh;
-      }
-    }
-    @media only screen and (max-width: 266px){
-      .App-header{
-        min-height: 83vh;
-      }
-    }
+    // }
+    // @media only screen and (max-width: 510px){
+    //   .App-header{
+    //     min-height: 77vh;
+    //   }
+    // }
+    // @media only screen and (max-width: 470px){
+    //   .App-header{
+    //     min-height: 78vh;
+    //   }
+    // }
+    // @media only screen and (max-width: 430px){
+    //   .App-header{
+    //     min-height: 79vh;
+    //   }
+    // }
+    // @media only screen and (max-width: 400px){
+    //   .App-header{
+    //     min-height: 80vh;
+    //   }
+    // }
+    // @media only screen and (max-width: 350px){
+    //   .App-header{
+    //     min-height: 8vh;
+    //   }
+    // }
+    // @media only screen and (max-width: 305px){
+    //   .App-header{
+    //     min-height: 82vh;
+    //   }
+    // }
+    // @media only screen and (max-width: 266px){
+    //   .App-header{
+    //     min-height: 83vh;
+    //   }
+    // }
     `}
 </style>
         </div>

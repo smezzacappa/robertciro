@@ -40,6 +40,7 @@ export default class Footer extends Component{
         display: flex;
         background: black;
         line-height: .5em;
+        justify-content: flex-end;
     }
     .signature{
         // display: flex;

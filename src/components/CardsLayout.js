@@ -9,7 +9,7 @@ import ComingSoon from "../assets/images/comingsoon.png"
 export default class CardsLayout extends Component {
     render(){
         return(
-            <div>
+            <div className="layoutContainer">
             <Container className="prodLayout">
             <Card>
   <Card.Img variant="top" src={ComingSoon} />
@@ -34,6 +34,10 @@ export default class CardsLayout extends Component {
 </Container>
 <style jsx>
     {`
+    .layoutContainer{
+        width: 80%;
+        margin: auto;
+    }
     .prodLayout{
       display: flex;
       justify-content: space-between;
@@ -51,6 +55,19 @@ export default class CardsLayout extends Component {
         font-size: 20px;
         font-family: 'Shadows Into Light', cursive;
     }
+    // @media only screen and (max-width: 575px){
+    //     //   .App-header{
+    //     //     min-height: 75vh;
+    //     //   }
+    // .prodLayout{
+    //     width: 60%;
+    // }
+    // .card-title{
+    //     font-size: 90%;
+    // }
+    // .card-text{
+    //     font-size: 80%;
+    // }
     `}
 </style>
 </div>

@@ -12,7 +12,7 @@ import HighlightedProducts from "../components/HighlightProducts";
 export default class Products extends Component{
     render(){
         return(
-          <div>
+          <div className="container" id="productsContainer">
             {/* <HighlightedProducts/> */}
             <Container className="slider">
             <Slider/> 
@@ -20,6 +20,9 @@ export default class Products extends Component{
             <CardsLayout/>
        <style jsx>
     {`
+    .productsContainer{
+      width: auto;
+    }
     .slider{
       display: flex;
       justify-content: center;
@@ -30,7 +33,11 @@ export default class Products extends Component{
     // .prodLayout{
     //   display: flex;
     // }
-
+    @media only screen and (max-width: 574){
+      .productsContainer{
+        width: auto%;
+      }
+    }
     `}
 </style>
         </div>
