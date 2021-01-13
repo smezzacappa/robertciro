@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
 import Logo from "../components/images/brick_logo.jpg"
+import ComingSoon from "../assets/images/comingsoon.png"
 
 export default class CardsLayout extends Component {
     render(){
@@ -11,7 +12,7 @@ export default class CardsLayout extends Component {
             <div>
             <Container className="prodLayout">
             <Card>
-  <Card.Img variant="top" src={Logo} />
+  <Card.Img variant="top" src={ComingSoon} />
   <Card.Body>
     <Card.Title>Hair</Card.Title>
     <Card.Text>
@@ -21,7 +22,7 @@ export default class CardsLayout extends Component {
   </Card.Body>
 </Card>
 <Card>
-  <Card.Img variant="top" src={Logo} />
+  <Card.Img variant="top" src={ComingSoon} />
   <Card.Body>
     <Card.Title>Beard</Card.Title>
     <Card.Text>

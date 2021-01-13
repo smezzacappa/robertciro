@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button"
 import Logo from "../components/images/brick_logo.jpg"
 import "../App.css"
 import { Card, Container } from "react-bootstrap";
+import ComingSoon from "../assets/images/comingsoon.png"
 
 
 export default class Slider extends Component{
@@ -14,21 +15,21 @@ export default class Slider extends Component{
           <Carousel.Item>
             <img
               className="d-block"
-              src={Logo}
+              src={ComingSoon}
               alt="First slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block"
-              src={Logo}
+              src={ComingSoon}
               alt="Second slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block"
-              src={Logo}
+              src={ComingSoon}
               alt="Third slide"
             />
           </Carousel.Item>
