@@ -1,10 +1,10 @@
 import { React, Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
-import Signature from "./images/_robert_ciro_logo.png";
-import Image from "react-bootstrap/Image"
+import Signature from "../assets/images/robert_ciro_logo.png";
+// import Image from "react-bootstrap/Image"
 import {FaInstagram, FaFacebook, FaTwitter} from "react-icons/fa"
-import { Col } from "react-bootstrap";
+
 import "./Navbar.css"
 // import Link from "react-router"
 import { Link } from 'react-router-dom'
@@ -15,7 +15,11 @@ export default class Footer extends Component{
    <div>
        <Navbar className="footer" sticky="bottom" expand="lg">
   <div className="brand">
-        <div className="social">
+     
+        <div className="social"> 
+        <a href="/">
+        <img className ="signature" src={Signature} alt="signature"/>
+        </a>
             <a href="https://www.instagram.com/robertciro">
                 <FaInstagram/>
             </a>
@@ -33,15 +37,16 @@ export default class Footer extends Component{
 <style jsx>
     {`
     .footer{
-        // display: flex;
+        display: flex;
         background: black;
         line-height: .5em;
     }
-    // .footer > .brand > navbar-brand > .social{
-    //     display: flex;
-    //     justify-content: space-between;
-    //     align-items: 
+    .signature{
+        // display: flex;
+        width: 5em;
+        margin: 5px;
     }
+    
     `}
 </style>
    </div>
