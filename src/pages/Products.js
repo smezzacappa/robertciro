@@ -33,10 +33,10 @@ export default class Products extends Component{
     // .prodLayout{
     //   display: flex;
     // }
-    @media only screen and (max-width:600px) and (min-width: 300px){
-      .App-header{
-        min-height: 50vh;
-      }
+    // @media only screen and (max-width:600px) and (min-width: 300px){
+    //   .App-header{
+    //     min-height: 0vh;
+    //   }
     }
     `}
 </style>
