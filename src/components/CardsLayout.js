@@ -46,6 +46,7 @@ export default class CardsLayout extends Component {
     .card{
         width: 18rem;
         margin: 1rem;
+        border: none;
     }
     .card-title{
         font-family: 'Big Shoulders Stencil Text', cursive;
