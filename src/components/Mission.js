@@ -8,7 +8,7 @@ const Mission = () => {
         We at Robert Ciro LLC have set out to create organic male products that take their user on a journey.
         </p>
         <p className="second">
-        It is our promise that we stay true to our company's values and beliefs in all the products we make. We seed to not only create a product that will change your life, but also a product that will become an essential part of your daily life.
+        It is our promise that we stay true to our company's values and beliefs in all the products we make. We seek to not only create a product that will change your life, but also a product that will become an essential part of your daily life.
         </p>
         <p className="third">
         We thank you for putting the well-being of your skin and hair in our care, and we know that you'll love our products just as much as we do.
