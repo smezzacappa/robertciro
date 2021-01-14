@@ -1,7 +1,7 @@
 import { React, Component } from "react";
 import Image from "react-bootstrap/Image";
 // import Rob from "./images/_robert_ciro_logo.png"
-import Rob from "./images/rob_banner3.png"
+import Rob from "../images/rob_banner3.png"
 // import Rob from "./images/brick_logo.jpg";
 // import "./Logo.css";
 
