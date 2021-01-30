@@ -1,12 +1,12 @@
 import {React, Component} from "react";
-import Carousel from "react-bootstrap/Carousel";
-import Button from "react-bootstrap/Button"
-import logo from "../components/images/brick_logo.jpg"
+// import Carousel from "react-bootstrap/Carousel";
+// import Button from "react-bootstrap/Button"
+// import logo from "../assets/images/brick_logo.jpg"
 import "../App.css"
-import { Card, Container } from "react-bootstrap";
+import Container  from "react-bootstrap/Container";
 import  Slider  from "../components/SlidingProds";
 import CardsLayout from "../components/CardsLayout";
-import HighlightedProducts from "../components/HighlightProducts";
+// import HighlightedProducts from "../components/HighlightProducts";
 
 
 export default class Products extends Component{

@@ -21,7 +21,7 @@ const Mission = () => {
         </p>
         </h2>
         <p id="signature">
-        <img src={Signature}/>
+        <img src={Signature} alt="signature"/>
         </p>
         <style jsx>
             {`

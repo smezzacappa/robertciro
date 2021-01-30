@@ -2,8 +2,8 @@
 import React, {Component} from "react";
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
-import Button from 'react-bootstrap/Button'
-import Logo from "../components/images/brick_logo.jpg"
+// import Button from 'react-bootstrap/Button'
+// import Logo from "../components/images/brick_logo.jpg"
 import ComingSoon from "../assets/images/comingsoon.png"
 
 export default class CardsLayout extends Component {

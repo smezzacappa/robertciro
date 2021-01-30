@@ -1,13 +1,13 @@
 import { React, Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
+// import Container from "react-bootstrap/Container";
 import Signature from "../assets/images/robert_ciro_logo.png";
 // import Image from "react-bootstrap/Image"
 import {FaInstagram, FaFacebook, FaTwitter} from "react-icons/fa"
 
 import "./Navbar.css"
 // import Link from "react-router"
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 export default class Footer extends Component{
     render(){

@@ -1,9 +1,9 @@
 import {React, Component} from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Button from "react-bootstrap/Button"
-import Logo from "../components/images/brick_logo.jpg"
+// import Button from "react-bootstrap/Button"
+// import Logo from "../components/images/brick_logo.jpg"
 import "../App.css"
-import { Card, Container } from "react-bootstrap";
+// import { Card, Container } from "react-bootstrap";
 import ComingSoon from "../assets/images/comingsoon.png"
 
 
