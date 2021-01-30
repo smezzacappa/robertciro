@@ -1,5 +1,6 @@
 import React from "react";
 import Signature from "../assets/images/robert_ciro_logo.png"
+import Polaroid from "../assets/images/rob_polaroid.png"
 
 const Mission = () => {
    return(
@@ -20,9 +21,12 @@ const Mission = () => {
          With Feeling Great.
         </p>
         </h2>
-        <p id="signature">
-        <img src={Signature} alt="signature"/>
+        <p>
+        <img src={Polaroid} alt="headshot" id="headshot"/>
         </p>
+        {/* <p id="signature">
+        <img src={Signature} alt="signature"/>
+        </p> */}
         <style jsx>
             {`
             p{      font-family: 'Shadows Into Light', cursive;        
@@ -36,12 +40,17 @@ const Mission = () => {
                 font-family: 'Permanent Marker', cursive;
             }
             #signature > img{
-               width: 30%;
+               width: 20%;
                display: flex-box
                justify-content: center;
                 align-items: center;
                 // text-align: center;
                 
+            }
+            #headshot{
+                width: 40%;
+                border-radius: .1em;
+                box-shadow: 3px 3px 8px 1px grey;
             }
                
             // @media only screen and (max-width: 600) {
