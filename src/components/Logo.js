@@ -15,6 +15,7 @@ export default class Logo extends Component{
        {`
        .Logo{
         display: flex;
+        // height: 22vh;
         justify-content: center;
         // padding-top: .5em;
         align-items: center;
