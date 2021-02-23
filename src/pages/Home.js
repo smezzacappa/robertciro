@@ -11,12 +11,20 @@ export default class Home extends Component{
     }
     render(){
         return(
-          <div className="container" id="mission">
+          <div className="homeContainer" id="mission">
            <Image src = {this.state.img} className="barberLogo"/>
           <style jsx>
             {`
+            .homeContainer{
+              display: flex;
+              align-item: center;
+              justify-content: center;
+            }
             .barberLogo{
-              margin: 1em;
+              margin-top: 1em;
+              margin-bottom: 1em;
+              width: 75%;
+
             }
             `}
           </style>

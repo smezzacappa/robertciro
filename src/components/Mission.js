@@ -29,7 +29,7 @@ const Mission = () => {
         </p> */}
         <style jsx>
             {`
-            p{      font-family: 'Shadows Into Light', cursive;        
+            p{     font-family: 'Truculenta', sans-serif;      
                  color: white!important;
                 text-align: center;
                 letter-spacing: 1px;
