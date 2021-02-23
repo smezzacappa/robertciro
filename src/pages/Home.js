@@ -24,7 +24,7 @@ export default class Home extends Component{
             .barberLogo{
               // margin-top: 1em;
               // margin-bottom: 1em;
-              width: 75%;
+              width: 100%;
 
             }
             `}
