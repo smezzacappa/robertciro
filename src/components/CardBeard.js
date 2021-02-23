@@ -2,23 +2,23 @@
 import React, {Component} from "react";
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
+import CardBeard from '../components/CardBeard'
 // import Button from 'react-bootstrap/Button'
 // import Logo from "../components/images/brick_logo.jpg"
-import ComingSoon from "../assets/images/comingsoon.png";
+import ComingSoon from "../assets/images/comingsoon.png"
 import RCLogo from "../assets/images/brick_logo.jpg";
 
-
-export default class CardBeard extends Component {
-
+export default class CardsLayout extends Component {
     state = {
-      img: ComingSoon
-    };
+        img: ComingSoon
+      };
+     
     render(){
         return(
             <div className="layoutContainer">
             <Container className="prodLayout">
-            <Card>
-  <Card.Img className="cardHair" variant="top" src={this.state.img}
+<Card>   
+<Card.Img className="cardHair" variant="top" src={this.state.img}
     onMouseEnter={() => {
       this.setState({
         img: RCLogo
@@ -36,28 +36,25 @@ export default class CardBeard extends Component {
     <Card.Text>
       Check Out Our Beard Products
     </Card.Text>
-    {/* <Button variant="primary">Go somewhere</Button> */}
+   
   </Card.Body>
 </Card>
 </Container>
 <style jsx>
     {`
-    // .layoutContainer{
-    //     width: auto%;
-    //     margin: auto;
-    // }
-    // .prodLayout{
-    //   display: flex;
-    //   justify-content: space-between;
-    // }
+    .layoutContainer{
+        width: auto%;
+        margin: auto;
+    }
+    .prodLayout{
+      display: flex;
+      justify-content: space-between;
+    }
     .card{
         width: 18rem;
         margin: 1rem;
         border: none;
     }
-    // img: hover{
-    //   background-image: url("../assets/images/brick_logo.jpg");
-    // }
     .card-title{
         font-family: 'Big Shoulders Stencil Text', cursive;
         font-size: 1.5em;
@@ -76,7 +73,6 @@ export default class CardBeard extends Component {
     .card-text{
         font-size: 80%;
     }
-
 }
     `}
 </style>
