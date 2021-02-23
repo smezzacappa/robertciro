@@ -37,7 +37,8 @@ const Mission = () => {
                 
             }
             .slogan{
-                font-family: 'Permanent Marker', cursive;
+                font-family: 'Truculenta', sans-serif;
+                font-weight: 700;
             }
             #signature > img{
                width: 20%;
