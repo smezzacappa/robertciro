@@ -3,6 +3,7 @@ import React, {Component} from "react";
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
+import Carousel from 'react-bootstrap/Carousel'
 // import Button from 'react-bootstrap/Button'
 // import Logo from "../components/images/brick_logo.jpg"
 import ComingSoon from "../assets/images/comingsoon.png";
@@ -19,7 +20,31 @@ export default class CardHair extends Component {
             <div className="layoutContainer">
       
       <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180" />
+         
+          <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block"
+              src={ComingSoon}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block"
+              src={ComingSoon}
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block"
+              src={ComingSoon}
+              alt="Third slide"
+            />
+          </Carousel.Item>
+        </Carousel>
+       
   <Card.Body>
     <Card.Title>Card Title</Card.Title>
     <Card.Text>

@@ -12,6 +12,7 @@ export default class Home extends Component{
     render(){
         return(
           <div className="homeContainer" id="mission">
+           
            <Image src = {this.state.img} className="barberLogo"/>
           <style jsx>
             {`
@@ -21,8 +22,8 @@ export default class Home extends Component{
               justify-content: center;
             }
             .barberLogo{
-              margin-top: 1em;
-              margin-bottom: 1em;
+              // margin-top: 1em;
+              // margin-bottom: 1em;
               width: 75%;
 
             }

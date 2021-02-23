@@ -2,7 +2,7 @@
 import React, {Component} from "react";
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
-import CardBeard from '../components/CardBeard'
+import CardHair from '../components/CardHair'
 // import Button from 'react-bootstrap/Button'
 // import Logo from "../components/images/brick_logo.jpg"
 import ComingSoon from "../assets/images/comingsoon.png"
@@ -39,6 +39,7 @@ export default class CardsLayout extends Component {
    
   </Card.Body>
 </Card>
+{/* <CardHair/> */}
 {/* <Card>   
 <Card.Img className="cardHair" variant="top" src={this.state.img}
     onMouseEnter={() => {
