@@ -14,7 +14,7 @@ export default class About extends Component{
           <style jsx>
             {`
             .card-body{
-              box-shadow: 0em 0em 1em silver;
+              box-shadow: 0px 0px 10px black;
             }
             #mission{
               display: flex;
