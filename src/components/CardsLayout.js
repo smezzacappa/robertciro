@@ -32,9 +32,9 @@ export default class CardsLayout extends Component {
     }}
     />
   <Card.Body>
-    <Card.Title>Hair</Card.Title>
+    <Card.Title>Beard</Card.Title>
     <Card.Text>
-      Check Out Our Hair Products
+      Check Out Our Beard Products
     </Card.Text>
    
   </Card.Body>
