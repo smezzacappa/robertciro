@@ -34,6 +34,7 @@ const Mission = () => {
                 text-align: center;
                 letter-spacing: 1px;
                 margin: 1em;
+                font-weight: 100;
                 
             }
             .slogan{
