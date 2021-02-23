@@ -1,35 +1,23 @@
 import {React, Component} from "react";
 import Card from "react-bootstrap/Card";
 import Mission from "../components/Mission"
+import barberLogo from "../assets/images/barberLogo.png"
+import Image from "react-bootstrap/Image" 
 // import Button from "react-bootstrap/Button";
 export default class Home extends Component{
+
+    state = {
+      img: barberLogo
+    }
     render(){
         return(
           <div className="container" id="mission">
-            <Card >
-            <Card.Body>
-             <Mission/>
-            </Card.Body>
-          </Card>
+           <Image src = {this.state.img} className="barberLogo"/>
           <style jsx>
             {`
-            .card-body{
-              box-shadow: 0em 0em 1em silver;
+            .barberLogo{
+              margin: 1em;
             }
-            #mission{
-              display: flex;
-              justify-content: center;
-            }
-            .card{
-              // margin: 30px;
-              background-color: black;
-              margin: 1em 0px 1em 0px;
-            }
-            @media only screen and (max-width: 400px) {
-              .card{
-                margin: 1em 0 1em 0;;
-              }
-             }
             `}
           </style>
           </div>
