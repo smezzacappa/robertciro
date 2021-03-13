@@ -13,7 +13,7 @@ export default class Home extends Component{
         return(
           <div className="homeContainer" id="mission">
            
-           <Image src = {this.state.img} className="barberLogo"/>
+           {/* <Image src = {this.state.img} className="barberLogo"/> */}
           <style jsx>
             {`
             .homeContainer{
